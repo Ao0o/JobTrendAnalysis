@@ -25,3 +25,5 @@ class JobspiderItem(scrapy.Item):
     SkillReq = Field()  # Skill requirement
     DetailLoc = Field()  # Detail location
 
+class JoblistItem(scrapy.Item):
+    URL = Field()
