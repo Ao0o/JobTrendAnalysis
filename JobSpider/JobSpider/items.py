@@ -13,7 +13,9 @@ class JobspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     JobName = Field()
-    Salary = Field()
+    ComName = Field()  # Company Name
+    SalaryLow = Field()
+    SalaryHigh = Field()
     Welfare = Field()
     Workplace = Field()
     WorkExp = Field()
